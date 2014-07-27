@@ -1,0 +1,81 @@
+/* your container */
+
+.container {
+	width: 100%;
+	height: 100%;
+	max-width: 1000px;
+}
+
+/* ytmini styles */
+.ytmini-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+}
+.ytmini-wrapper.ytmini-4x3 {
+	padding-bottom: 75%; /* 4:3 */
+}
+.ytmini-wrapper .ytmini-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ytmini-wrapper .ytmini-controls-mask {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	z-index: 10;
+}
+.ytmini-wrapper .ytmini-controls {
+	position: relative;
+	height: 40px;
+	width: 100%;
+}
+.ytmini-wrapper .ytmini-controls-play {
+	cursor: pointer;
+	top: 0;
+	left: 20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 0 20px 34.6px;
+	border-color: transparent transparent transparent #fff;
+	position: relative;
+	opacity: 1;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+.ytmini-wrapper .ytmini-controls-play.active {
+	width: 10px;
+	height: 40px;
+	border-style: solid;
+	border-width: 0 10px;
+	border-color: #fff;    
+	opacity: .25;
+}
+
+.ytmini-wrapper .ytmini-controls-scrubber {
+	margin-top: 4px;
+	width: 72.5%;
+	height: 3px;
+	background-color: rgba(255, 255, 255, .25);
+	position: absolute;
+	bottom: 19px;
+	right: 20px;
+}
+.ytmini-wrapper .ytmini-controls-playhead {
+	width: 0px;
+	height: 3px;
+	opacity: 1;
+	background-color: #FFF;
+}
+/* aspect ratios from */
+/* http://alistapart.com/article/creating-intrinsic-ratios-for-video */
+/* http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */

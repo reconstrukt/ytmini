@@ -1,7 +1,7 @@
 ytmini
 ======
 
-YouTube iframe api plugin for jquery. 
+YouTube iframe api widget, for jquery. 
 
 Responsive, mobile/tablet friendly YouTube player widget.  Includes skinnable playback controls in HTML/CSS.  Uses the new YouTube Iframe API.  Dead-simple prototype, consider it a blueprint for something more serious.
 

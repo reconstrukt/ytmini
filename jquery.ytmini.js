@@ -1,9 +1,13 @@
 /*
+
 ytmini - http://reconstrukt.com
 Licensed under the MIT license
 Matthew Knight, 2014
 
-Disclaimer: quick + dirty prototype.  Think of it as a starting point for something more serious, and enjoy.
+Responsive, mobile/tablet friendly YouTube player widget.  Includes skinnable playback controls in HTML/CSS.  
+Uses the new YouTube Iframe API.  Dead-simple prototype, consider it a blueprint for something more serious.
+
+Check the fiddle here: http://jsfiddle.net/reconstrukt/ARR7P/
 
 */
 
